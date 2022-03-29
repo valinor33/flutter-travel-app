@@ -44,10 +44,10 @@ class DescriptionPlace extends StatelessWidget {
     );
 
     final description = Container(
-      margin: EdgeInsets.only(top: 15.0, left: 20.0, right: 20.0),
+      margin: const EdgeInsets.only(top: 15.0, left: 20.0, right: 20.0),
       child: Text(
         descriptionPlace,
-        style: TextStyle(
+        style: const TextStyle(
           fontSize: 16.0,
           fontWeight: FontWeight.bold,
           color: Color(0xFF56575a),
@@ -61,14 +61,14 @@ class DescriptionPlace extends StatelessWidget {
     final title_stars = Row(
       children: <Widget>[
         Container(
-          margin: EdgeInsets.only(
+          margin: const EdgeInsets.only(
             top: 320.0,
             left: 20.0,
             right: 20.0,
           ),
           child: Text(
             namePlace,
-            style: TextStyle(
+            style: const TextStyle(
               fontSize: 30.0,
               fontWeight: FontWeight.w900,
               fontFamily: "Work"
@@ -81,7 +81,7 @@ class DescriptionPlace extends StatelessWidget {
             star,
             star,
             star_half,
-            star_border
+            star_border,
           ],
         )
       ],
